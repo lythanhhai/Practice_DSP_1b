@@ -1,0 +1,12 @@
+- Xác định giới tính tính hiệu tiếng nói, dùng lại bài thi cuối kỳ.
+- tính f0 mean -> giọng nam hay nữ.
+- f0<150hz nam >150hz nữ
+- khảo sát độ chính xác thuật toán của các tín hiệu.
+-Phân công công việc:
++ 1a: Hàm tự tương quan : trường, khảo sát % sai số f0 so vs kết quả chuẩn của 8file huấn luyện
+    : Hàm AMDF : Hải khảo sát % sai số f0 so vs kết quả chuẩn của 8file huấn luyện
+    : Hàm FFT: Bình khảo sát % sai số f0 so vs kết quả chuẩn của 8file huấn luyện
+=> đưa dữ liệu thông kê trước thứ 2 tuần sau
+    : Minh : tổng hợp và viết báo cáo 
+=> hoàn thành trước thứ 3 tuần sau
+ 1b: mỗi người làm 2 file theo thứ tự tên alpha B : từ file 01 -> file 45. hoàn thành trước thứ 3 tuần sau để bỏ vào báo cáo .
