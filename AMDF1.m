@@ -200,9 +200,9 @@ for i=1:(numberFrames + 4)
 end
 
 % trung bình cộng
-fo_mean_median = fomean_median/j
+fo_mean_median = fomean_median/j;
 % độ lệch chuẩn
-fo_std_median = sqrt(phuongsai_median / (j-1))
+fo_std_median = sqrt(phuongsai_median / (j-1));
 
 if fo_mean_median < 150 
     tenFile1 = 'Male';
@@ -224,7 +224,7 @@ end
  % vẽ Fo loại bỏ các phần tử bằng 0
 k=1;
 subplot(5,1,2);
-time3 = 0.03 * length(Fo);
+time3 = 0.01 * length(Fo);
 t3 = linspace(0, time3, length(Fo));
 for i=1:numberFrames
     k=k+1;
@@ -246,7 +246,7 @@ for i=3:(numberFrames + 2)
     index1 = index1 + 1;
 end
 a=1;
-time2 = 0.03 * length(filterFoCopy);
+time2 = 0.01 * length(filterFoCopy);
 t2 = linspace(0, time2, length(filterFoCopy));
 subplot(5,1,3);
 for i=1:length(filterFo)

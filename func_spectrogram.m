@@ -8,6 +8,5 @@
      subplot(312);
      spectrogram(x, 30*10^(-3)*fs, 20*10^(-3)*fs, 1024, fs, "yaxis");
      subplot(313);
-     spectrogram(x, 30*10^(-3)*fs, 20*10^(-3)*fs, 1024, fs, "yaxis");
-
+     spectrogram(x, 5*10^(-3)*fs, round(2*10^(-3)*fs), 1024, fs, "yaxis");
  end
